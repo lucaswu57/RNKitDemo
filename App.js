@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -88,7 +89,7 @@ const App: () => Node = () => {
           <Section title="Learn More">
             Read the docs to discover what to do next:
           </Section>
-          <webview> </webview>
+          {/* <webview> </webview> */}
           <LearnMoreLinks />
         </View>
       </ScrollView>
